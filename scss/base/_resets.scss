@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 2px dotted red;
+  outline-offset: 4px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+ul,
+ol {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+img {
+  object-fit: cover;
+  display: flex;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  line-height: ;
+}
+
+a {
+  list-style: none;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
